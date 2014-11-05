@@ -1,0 +1,30 @@
+{
+  "name": "hipchat-eraser",
+  "version": "0.1.1",
+  "description": "delete your hipchat history",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianc/hipchat-eraser.git"
+  },
+  "keywords": [
+    "hipchat",
+    "history",
+    "delete",
+    "erase"
+  ],
+  "author": "Brian M. Carlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianc/hipchat-eraser/issues"
+  },
+  "homepage": "https://github.com/brianc/hipchat-eraser",
+  "dependencies": {
+    "phantomjs": "^1.9.12",
+    "prompt": "^0.2.14"
+  }
+}
