@@ -10,12 +10,12 @@ npm install --global hipchat-eraser
 
 ## use
 ```sh
-hipchat-erase
+hipchat-eraser
 ```
 
-`hipchat-erase` will prompt you for your hipchat email address, your hipchat password, and the name of the user who's chat you'd like to remove all messages _to_.  You cannot delete their messages, only yours.  Your personal information is never stored or shared, only used to log into the hipchat account _securely from your own computer_.
+`hipchat-eraser` will prompt you for your hipchat email address, your hipchat password, and the name of the user who's chat you'd like to remove all messages _to_.  You cannot delete their messages, only yours.  Your personal information is never stored or shared, only used to log into the hipchat account _securely from your own computer_.
 
-Under the covers `hipchat-erase` uses [phantomjs](http://phantomjs.org/) to crawl through your chat history with someone and delete your messages one by one.  It can take several hours to delete a years worth of history.
+Under the covers `hipchat-eraser` uses [phantomjs](http://phantomjs.org/) to crawl through your chat history with someone and delete your messages one by one.  It can take several hours to delete a years worth of history.
 
 ## contributing
 
