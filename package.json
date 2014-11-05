@@ -1,6 +1,6 @@
 {
   "name": "hipchat-eraser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "delete your hipchat history",
   "main": "index.js",
   "bin": "./bin.js",
